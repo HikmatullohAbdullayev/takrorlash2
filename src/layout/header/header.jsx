@@ -7,6 +7,7 @@ import { SearchIcon } from "../../assets/icon/searchIcon"
 import { UserIcon } from "../../assets/icon/userIcon";
 import { LikeIcon } from "../../assets/icon/likeIcon"
 import { ShopIcon } from "../../assets/icon/shopIcon"
+import { MenuIcon } from "../../assets/icon/menuIcon"
 export const Header = () => {
   return (
     <>
@@ -42,8 +43,7 @@ export const Header = () => {
        
 
         <ul className="icon-box">
-          <li className="icon-item"></li>
-          <li className="icon-item">
+        <li className="icon-item">
             {" "}
             <button className="header_icon header_button">  <SearchIcon/></button>{" "}
           </li>
@@ -65,10 +65,19 @@ export const Header = () => {
             {" "}
             <Link className="item-link" to={"korzinka"}>
               {" "}
-              <span className="header_icon"> <ShopIcon/>  <sup className="shop_count">1 </sup> </span>{" "}
+              <span className="header_icon"> <ShopIcon/>  <span className="shop_count">1 </span> </span>{" "}
             </Link>
           </li>
         </ul>
+            <div className="menu-icons">
+            <Link className="item-link" to={"korzinka"}>
+              {" "}
+              <span className="header_icon icon-2"> <ShopIcon/>  <span className="shop_count">1 </span> </span>{" "}
+            </Link>
+          
+            <button className="header_icon header_button menu">  <MenuIcon/></button>
+          
+            </div>
        </div>
       </header>
     </>
