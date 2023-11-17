@@ -11,7 +11,7 @@ import { MenuIcon } from "../../assets/icon/menuIcon"
 export const Header = () => {
   return (
     <>
-      <header className="header container ">
+      <div className="header container ">
        <div className="header__container">
        <a className="header__logo-link" href="#">
           <img className="header__logo" src={logoIgm} alt="logo" />
@@ -79,7 +79,7 @@ export const Header = () => {
           
             </div>
        </div>
-      </header>
+      </div>
     </>
   );
 };
