@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 23px;
+    padding-bottom: 16px;
 }
 
 .nav__list {
@@ -19,6 +20,7 @@ font-family: Inter;
 font-size: 14px;
 font-weight: 600;
 line-height: 24px; /* 171.429% */
+transition: 0.2s ease-in-out;
 }
 .item__link:hover{
     color:#C17554;
@@ -44,7 +46,7 @@ line-height: 24px; /* 171.429% */
 .header_icon {
     display: flex;
     align-items:center;
-
+    transition: 0.2s ease-in-out;
     
 }
 .header_icon:hover {
