@@ -18,10 +18,10 @@ export const Intro = () => {
         <div className="intro-container container">
         <div className="intro-box">
         <div className="arrows">
-        <button className="arrow-left"><ArrowIcon/></button>
-          <button className="arrow-rigth"><ArrowIcon/></button>
+        <button className="arrow-left intro-btn"><ArrowIcon/></button>
+          <button className="arrow-rigth intro-btn"><ArrowIcon/></button>
         </div>
-          <img className="intro-img" src={introImg} alt="img" />
+          <div className="img-block"><img className="intro-img" src={introImg} alt="img" /></div>
           <div className="intro-content">
             <h2 className="intro-sub-title">IKIGAI</h2>
             <h1 className="intro-title">Leather bags worth hugging.</h1>
@@ -31,7 +31,7 @@ export const Intro = () => {
         </div>
 
         <div className="partners">
-        <button className="arrow-left"><ArrowIcon/></button>
+        <button className="arrow-left partners-btn"><ArrowIcon/></button>
           <ul className="logos">
             <li className="brand"> <NikeIcon/> </li>
             <li className="brand"> <HushIcon/> </li>
@@ -41,7 +41,7 @@ export const Intro = () => {
             <li className="brand"> <SupermeIcon/> </li>
 
           </ul>
-          <button className="arrow-rigth"><ArrowIcon/></button>
+          <button className="arrow-rigth partners-btn"><ArrowIcon/></button>
         </div>
         </div>
         

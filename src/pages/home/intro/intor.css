@@ -50,6 +50,7 @@ border:transparent;
     align-items:center;
 }
 .intro-content {
+    padding-left: 20px;
     max-width: 460px;
 
 }
@@ -109,7 +110,89 @@ margin-bottom: 28px;
     display: flex;
     justify-content: space-between;
     align-items:center;
-    gap:48px
+    gap:30px;
+    overflow-y: scroll;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .brand {
+    
+}
+
+@media screen and (max-width:1025px) {
+    .partners-btn{
+        display: none;
+    }
+    .logos{
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:1185px) {
+    .intro-img{
+        max-width:600px ;
+    }
+}
+@media screen and (max-width:1050px) {
+    .intro-img{
+        max-width:530px ;
+    }
+}
+@media screen and (max-width:992px) {
+    .intro-title{
+        font-size: 45px;
+    }
+    .intro-img{
+        max-width:500px ;
+    }
+    .intro-title{
+        max-width: 400px;
+    }
+}
+@media screen and (max-width:830px) {
+    .intro-img{
+        max-width:430px ;
+    }
+}
+@media screen and (max-width:790px) {
+    .intro-img{
+        width: 100%;
+        max-width:420px ;
+    }
+    .intro-btn{
+        display: none;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .intro-box{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .intro-img{
+        max-width: 680px;
+        width: 100%;
+    }
+    .intro-content{
+        max-width: 600px;
+        text-align: start;
+        padding: 8px;
+    }
+    .intro-title{
+        
+        font-size: 38px;
+    }
+}
+@media screen and (max-width:500px) {
+    .intro-title{
+        line-height: 42px;
+        font-size: 32px;
+    }
+    .intro-text{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .intro-link{
+        font-size: 16px;
+    }
 }
